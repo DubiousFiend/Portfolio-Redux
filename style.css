@@ -4,7 +4,7 @@ body {
 		h1, h1, h2, h3, h4, a {color:#FF0000;}
 		h2, h3 {text-decoration: underline;}		
 		li {color:#FF0000;}
-		a:link {color: yellow;}	
+		a:link {color: yellow !important;}	
 		a:hover {color: red;}
   	* {font-family: "Lucida Console", "Courier New", monospace;'}
 }
