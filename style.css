@@ -1,12 +1,39 @@
 body {
-  margin: 0;
-  background-color: #0B0909;
-		h1, h1, h2, h3, h4, a {color:#FF0000;}
-		h2, h3 {text-decoration: underline;}		
-		li {color:#FF0000;}
-		a:link {color: yellow !important;}	
-		a:hover {color: red;}
-  	* {font-family: "Lucida Console", "Courier New", monospace;'}
+    margin: 0;
+    background-color: #0B0909;
+}
+
+h1, h2, h3, h4, li {
+    color: #FF0000; /* Red color for headings and list items */
+}
+
+h2, h3 {
+    text-decoration: underline; /* Underline for h2 and h3 */
+}
+
+/* Default link color (yellow) */
+a {
+    color: yellow; /* This sets the default color for links */
+    text-decoration: none; /* Optionally, remove underline from links */
+}
+
+/* Hover color for links (red) */
+a:hover {
+    color: red; /* Change link color to red on hover */
+}
+
+/* Ensure the correct font family is applied */
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.page-background{
+	background-image: url('background-image.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
 }
 .menu-container {
   text-align: center;
@@ -83,3 +110,4 @@ body {
   transform-origin: right top;
   transform: rotate(60deg) translate(110px, 0);
 }
+
